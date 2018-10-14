@@ -1,6 +1,6 @@
-## Minecraftを実行する
+## Run Minecraft
 
-Minecraft Piを実行するには、デスクトップメニューから開くか、端末に `minecraft-pi`と入力します
+To run Minecraft Pi, open it from the desktop menu or type `minecraft-pi` in the terminal.
 
 ![](images/menu.png)
 
