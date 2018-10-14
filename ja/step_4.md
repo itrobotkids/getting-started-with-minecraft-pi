@@ -1,4 +1,3 @@
-
 ## Minecraftを実行する
 
 Minecraft Piを実行するには、デスクトップメニューから開くか、端末に `minecraft-pi`と入力します
