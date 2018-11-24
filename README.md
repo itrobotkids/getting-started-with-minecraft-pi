@@ -13,7 +13,7 @@
 
 
 
-# Getting Started with Programming the Minecraft World
+# マイクラの世界のプログラミング、始めてみよう。
 
 ![](cover.png)
 
