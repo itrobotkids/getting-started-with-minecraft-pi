@@ -5,9 +5,9 @@
 - [その2 何が必要？](ja/step_2.md)
 - [その3 Minecraft Piを始めるには](ja/step_3.md)
 - [その4 Minecraftを起動する](ja/step_4.md)
-- [その5 パイソンプログラミングの接点を使う](ja/step_5.md)
-- [Step6 Dropping blocks as you walk](ja/step_6.md)
-- [Step7 Playing with TNT blocks](ja/step_7.md)
+- [その5 パイソンプログラミングと接続をとる](ja/step_5.md)
+- [Step6 歩くとともにブロックを置くプログラミングを作ってみよう](ja/step_6.md)
+- [Step7 TNTブロックで遊ぼう](ja/step_7.md)
 - [Step8 Fun with flowing lava.](ja/step_8.md)
 - [Step9 What next?](ja/step_9.md)
 
