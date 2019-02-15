@@ -1,7 +1,6 @@
 Code2Create.Clubが日本語への翻訳作業を行なっています。
 
 
-ここは、gh-pagesブランチです。
 
 [Wiki](https://github.com/Naohiro2g/getting-started-with-minecraft-pi/wiki)もあるよ！
 
