@@ -1,45 +1,43 @@
-## What you will need
+## 必要になるもの
 
+### ソフトウェア
 
+#### ソフトウェアのインストール
 
-### Software
-
-#### Software installation
-
-Minecraft has been installed by default in Raspbian since September 2014.
+2014年9月より、マインクラフトはラズビアンに最初からインストールされています。
 
 ![Minecraft Pi desktop icon](images/minecraft-pi-shortcut.png)
 
-If you're using an older version of Raspbian, open a terminal window and type the following commands (you must be online):
+もし、古いバージョンのラズビアンを使っているなら、ターミナル ウィンドウを開いて、 以下のコマンドを打ち込んでください。(インターネットに接続されている必要があります。):
 
 ```bash
 sudo apt-get update
 sudo apt-get install minecraft-pi
 ```
 
-Once that finishes, Minecraft Pi and the Python library should be installed.
+終了したら、マインクラフトパイとPythonライブラリーがインストールされているはずです。
 
-#### Test Minecraft
+#### マインクラフトを試す
 
-To run Minecraft double click the desktop icon or enter `minecraft-pi` in the terminal.
+マインクラフトを走らせるには、デスクトップのアイコンをダブルクリックするか、ターミナルに `minecraft-pi` と打ち込みます。
 
 ![](images/mcpi-start.png)
 
-When Minecraft Pi has loaded, click on **Start Game**, followed by **Create new**. You'll notice that the containing window is offset slightly. This means to drag the window around you have to grab the title bar behind the Minecraft window.
+マインクラフトパイがロードされたあと、`Start Game` をクリックし、次に`Create new`をクリックします。ウィンドウがわずかにズレていることに気がつくでしょう。このウィンドウをあちこち動かすにはマインクラフトウィンドウの後ろにあるタイトルバーをつかむ必要があるということを意味します。
 
 ![](images/mcpi-game.png)
 
-You are now in a game of Minecraft!
+あなたは今、マインクラフトのゲームの中にいます!
 
-#### Test Python
+#### Pythonを試す
 
-With Minecraft running, and the world created, bring your focus away from the game by pressing the `Tab` key, which will free your mouse. Open Python 3 (IDLE) on the Desktop and move the windows so they're side-by-side.
+マインクラフトが走って世界が開いた後、Tabキーを押すとゲームからフォーカスを外すことができ、マウスが解放されます。デスクトップの上のIDLE(IDLE3ではなくて)を開き、ウィンドウ(複数)を横に並ぶように動かします。
 
-You can either type commands directly in to the Python window or create a file so you can save your code and run it again another time.
+Pythonウィンドウに直接コマンドをタイプしてもいいし、保存しておいて後で走らせられるようにファイルを作ることもできます。
 
-If you want create a file go to `File > New window` and `File > Save`. You'll probably want to save this in your home folder or a new project folder.
+ファイルを作りたいのであれば、`File > New window`をしてから、`File > Save`とします。ホームフォルダ、あるいは、新しいプロジェクト用フォルダに保存したいのではないでしょうか？
 
-Start by importing the Minecraft library, creating a connection to the game and testing it by posting the message "Hello world" to the screen:
+マインクラフトのライブラリーをインポートし、ゲームへの接続を作り、「ハローワールド」メッセージを画面に投稿(表示)して試すことから始めます:
 
 ```python
 from mcpi import minecraft
@@ -49,8 +47,8 @@ mc = minecraft.Minecraft.create()
 mc.postToChat("Hello world")
 ```
 
-If you're entering commands directly in to the Python window, just hit `Enter` after each line. If it's a file, save with `Ctrl + S` and run with `F5`. When your code runs, you should see your message on screen in the game.
+Pythonウィンドウに直接コマンドを入力しているのなら、各行の後で`Enter`を打つだけです。ファイルの中であれば、`Ctrl + S`で保存し、`F5`で走らせます。コードが走るとゲームの画面上にメッセージが見えるはずです。
 
 ![](images/mcpi-idle.png)
 
-If you see "Hello world" in the Minecraft window, you're good to proceed to the next step.
+マインクラフトウィンドウに「ハローワールド」が見えたら、次のステップに進んでオッケーです。
